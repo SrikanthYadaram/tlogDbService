@@ -17,6 +17,28 @@ public class Service {
 
     private int pId;
 
+    private int automatedTestCases;
+
+    private int expectedToAutomate;
+
+
+    public int getAutomatedTestCases() {
+        return automatedTestCases;
+    }
+
+    public void setAutomatedTestCases(int automatedTestCases) {
+        this.automatedTestCases = automatedTestCases;
+    }
+
+    public int getExpectedToAutomate() {
+        return expectedToAutomate;
+    }
+
+    public void setExpectedToAutomate(int expecteToAutomate) {
+        this.expectedToAutomate = expecteToAutomate;
+    }
+
+
     public int getServiceId() {
         return serviceId;
     }
