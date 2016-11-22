@@ -14,11 +14,17 @@ public class Product {
 
     private String pName;
 
-    private String pTech;
+    private String devTech;
 
     private int deptId;
 
     private String productDesc;
+
+    private String qaTool;
+
+
+
+    private String automationTech;
 
     public int getpId() {
         return pId;
@@ -36,12 +42,12 @@ public class Product {
         this.pName = pName;
     }
 
-    public String getpTech() {
-        return pTech;
+    public String getdevTech() {
+        return devTech;
     }
 
-    public void setpTech(String pTech) {
-        this.pTech = pTech;
+    public void setdevTech(String pTech) {
+        this.devTech = devTech;
     }
 
     public int getDeptId() {
@@ -58,6 +64,21 @@ public class Product {
 
     public void setProductDesc(String productDesc) {
         this.productDesc = productDesc;
+    }
+    public String getQaTool() {
+        return qaTool;
+    }
+
+    public void setQaTool(String qaTool) {
+        this.qaTool = qaTool;
+    }
+
+    public String getAutomationTech() {
+        return automationTech;
+    }
+
+    public void setAutomationTech(String automationTech) {
+        this.automationTech = automationTech;
     }
 
 }
