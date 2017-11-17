@@ -1,7 +1,3 @@
 com/prac/DashboardApplication.class
-com/prac/repositories/DepartmentRepository.class
+com/prac/entities/Products.class
 com/prac/repositories/ProductRepository.class
-com/prac/entities/Service.class
-com/prac/entities/Product.class
-com/prac/repositories/ServiceRepository.class
-com/prac/entities/Department.class

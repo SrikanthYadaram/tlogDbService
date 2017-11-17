@@ -14,7 +14,9 @@ public class Products {
 
     private String productName;
 
-    private String totalTestCases;
+    private int totalTestCases;
+
+    private int failedTc;
 
     public int getProductId() {
         return productId;
@@ -32,11 +34,19 @@ public class Products {
         this.productName = productName;
     }
 
-    public String getTotalTestCases() {
+    public int getTotalTestCases() {
         return totalTestCases;
     }
 
-    public void setTotalTestCases(String totalTestCases) {
+    public void setTotalTestCases(int totalTestCases) {
         this.totalTestCases = totalTestCases;
+    }
+
+    public int getFailedTc() {
+        return failedTc;
+    }
+
+    public void setFailedTc(int failedTc) {
+        this.failedTc = failedTc;
     }
 }

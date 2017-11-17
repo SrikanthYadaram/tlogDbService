@@ -21,7 +21,7 @@ public class DashboardApplication {
 	private ProductRepository productRepository;
 
 
-	@RequestMapping("/products/")
+	@RequestMapping("/products")
 	public List<Products> getProductsWithDeptId() {
 		return productRepository.findAll();
 	}
